@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oxanium", sans-serif;
+}
+body{
+    background-color: #9450F2;
+}
+#page-wrapper{
+    width: 95vw;
+    margin: auto;
+    text-align: center;
+    background-color: #B87EF2;
+}
+#container{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    height:150vh;
+
+
+
+}
+nav{
+    background-color: #D1A0F2;
+    width: 25%;
+
+
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+    width: 100%;
+    font-size: calc(2px + 2.5vw);
+}
+nav li{
+    width: 80%;
+    text-decoration: none;
+    background-color:#E4C2F2;
+    font-size: calc(2px + 2.5vw);
+    border-radius: 15px;
+    padding: 10px 0;
+    margin: 20px 6px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #9450F2;
+
+}
+main{
+    width:70%;
+}
+main h3{
+    font-size: calc(3px + 3vw);
+}
+
+main p{
+    padding-top: 10px;
+    font-size: calc(2px + 2vw);
+
+}
+img{
+    max-width: 70%;
+    max-height: 70%;
+
+}
+header{
+    background-color: #483C59;
+    color:#9450F2;
+}
+footer{
+    background-color: #483C59;
+    color:#9450F2;
+}
+footer a{
+    text-decoration: none;
+    list-style: none;
+    color:#9450F2;
+}
+
+@media screen and (max-width: 750px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:100vh;
+    }
+
+    nav {
+        width: 95vw;
+        margin-top:0;
+
+    }
+
+    nav ul {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav li {
+        display: inline-block;
+
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main p{
+        font-size: calc(3px + 3vw);
+    }
+
+    header {
+        text-align: center;
+        font-size: calc(2px + 2.5vw);
+    }
+}
+
+
